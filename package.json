@@ -1,5 +1,5 @@
 {
-  "name": "swagger-restify",
+  "name": "swagger-restify-mw",
   "version": "0.0.1",
   "description": "Swagger loader and middleware for Restify",
   "keywords": [
