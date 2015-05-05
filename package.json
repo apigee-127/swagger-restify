@@ -1,0 +1,30 @@
+{
+  "name": "swagger-restify",
+  "version": "0.0.1",
+  "description": "Swagger loader and middleware for Restify",
+  "keywords": [
+    "swagger",
+    "api",
+    "apis",
+    "restify"
+  ],
+  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apigee-127/swagger-restify.git"
+  },
+  "dependencies": {
+    "swagger-node-runner": "^0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0",
+    "yamljs": "^0.2.2"
+  },
+  "scripts": {
+    "test": "mocha -u exports -R spec test test/lib",
+    "coverage": "istanbul cover _mocha -- -u exports -R spec test test/lib"
+  }
+}
