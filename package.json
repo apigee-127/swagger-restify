@@ -1,6 +1,6 @@
 {
   "name": "swagger-restify-mw",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Swagger loader and middleware for Restify",
   "keywords": [
     "swagger",
@@ -16,7 +16,7 @@
     "url": "https://github.com/apigee-127/swagger-restify.git"
   },
   "dependencies": {
-    "swagger-node-runner": "^0.6.1"
+    "swagger-node-runner": "^0.7.0"
   },
   "devDependencies": {
     "lodash": "^3.9.3",
